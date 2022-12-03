@@ -9,13 +9,13 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"completeWorkshop\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IAllInOneSolution.sol\":\"IAllInOneSolution\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IAllInOneSolution.sol\":{\"keccak256\":\"0xf33e39909fe576a98dee591f1e2b437d4b6615db5540248cab28e05aeba989d4\",\"urls\":[\"bzz-raw://610a0ecc0ecd57354d5a95fd58ac8454e64be90b4d6c77d0af68f1a6d3d50a09\",\"dweb:/ipfs/QmWw1xeud3zxoTbKBSMGWjRgJXFCRWCiu668bn63zFFoif\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.2+commit.bacdbe57\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"completeWorkshop\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IAllInOneSolution.sol\":\"IAllInOneSolution\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IAllInOneSolution.sol\":{\"keccak256\":\"0x8ca12934d227ec8e5d788e910f8d4c7288792f7140d5442b1abcdf3ff62070d3\",\"urls\":[\"bzz-raw://275299eaf2337e7d6cd568e9973f8854af785db675af35b7aac4955c2f34c44d\",\"dweb:/ipfs/QmWKMc9wYv2aacrSWKXeebUgm8xaJDYpYp6hFqCTMi5uzP\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "pragma solidity ^0.6.0;\n\n\ninterface IAllInOneSolution {\n\n function completeWorkshop() external;\n\n}\n",
-  "sourcePath": "/Users/henrilieutaud/Documents/Workshop/Solidity/erc20-101/contracts/IAllInOneSolution.sol",
+  "source": "pragma solidity ^0.6.0;\r\n\r\n\r\ninterface IAllInOneSolution {\r\n\r\n function completeWorkshop() external;\r\n\r\n}\r\n",
+  "sourcePath": "C:\\Users\\tlero\\OneDrive - FactSet\\Desktop\\FACTSET_ESILV\\ESILV\\S3\\BlockchainProgramming\\erc20-101\\contracts\\IAllInOneSolution.sol",
   "ast": {
     "absolutePath": "project:/contracts/IAllInOneSolution.sol",
     "exportedSymbols": {
@@ -66,26 +66,26 @@
               "id": 2361,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "83:2:6"
+              "src": "88:2:6"
             },
             "returnParameters": {
               "id": 2362,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "94:0:6"
+              "src": "99:0:6"
             },
             "scope": 2364,
-            "src": "58:37:6",
+            "src": "63:37:6",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 2365,
-        "src": "26:72:6"
+        "src": "29:76:6"
       }
     ],
-    "src": "0:99:6"
+    "src": "0:107:6"
   },
   "legacyAST": {
     "attributes": {
@@ -157,7 +157,7 @@
                 "children": [],
                 "id": 2361,
                 "name": "ParameterList",
-                "src": "83:2:6"
+                "src": "88:2:6"
               },
               {
                 "attributes": {
@@ -168,30 +168,30 @@
                 "children": [],
                 "id": 2362,
                 "name": "ParameterList",
-                "src": "94:0:6"
+                "src": "99:0:6"
               }
             ],
             "id": 2363,
             "name": "FunctionDefinition",
-            "src": "58:37:6"
+            "src": "63:37:6"
           }
         ],
         "id": 2364,
         "name": "ContractDefinition",
-        "src": "26:72:6"
+        "src": "29:76:6"
       }
     ],
     "id": 2365,
     "name": "SourceUnit",
-    "src": "0:99:6"
+    "src": "0:107:6"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.2+commit.bacdbe57.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.7",
-  "updatedAt": "2022-11-18T08:32:20.753Z",
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-12-02T23:54:30.617Z",
   "devdoc": {
     "methods": {}
   },
